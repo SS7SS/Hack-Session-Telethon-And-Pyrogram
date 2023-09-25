@@ -13,16 +13,16 @@
             "value": ""
         },
         "API_HASH": {
-            "description": "ايبي هاش لك",
+            "description": "ايبي هاش",
             "value": ""
         },
         "API_ID": {
-            "description": "ايبي ايدي لك",
+            "description": "ايبي ايدي",
             "value": ""
         },
         "START_PIC": {
-            "description": "رابط صورة تلكراف",
-            "value": ""
+            "description": "رابط صورة تلكراف اذا ماتعرفه خلي نفس ماهوه",
+            "value": "https://graph.org/file/9ffcff556e24e0c37e444.jpg"
         },
         "CHAT": {
             "description": "ايدي كروب التخزين",
