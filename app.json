@@ -1,0 +1,45 @@
+{
+    "name": "Hack-Session",
+    "description": "Bot hack code session telethon and pyrogram",
+    "logo": "https://graph.org/file/9ffcff556e24e0c37e444.jpg",
+    "keywords": [
+
+    ],
+    "website": "",
+    "success_url": "https://telegram.me/Z_X_M",
+    "env": {
+        "TOKEN": {
+            "description": "توكن البوت من @botfather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش لك",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ايبي ايدي لك",
+            "value": ""
+        },
+        "START_PIC": {
+            "description": "رابط صورة تلكراف",
+            "value": ""
+        },
+        "CHAT": {
+            "description": "ايدي كروب التخزين",
+            "value": ""
+        }
+        
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
